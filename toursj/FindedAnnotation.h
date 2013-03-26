@@ -10,6 +10,7 @@
 #import <MapKit/MapKit.h>
 
 @interface FindedAnnotation : NSObject<MKAnnotation>
+
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 @property (nonatomic, readonly, copy) NSString *title;
 
