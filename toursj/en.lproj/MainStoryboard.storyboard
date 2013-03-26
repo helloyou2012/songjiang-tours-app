@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
         <deployment version="1536" identifier="iOS"/>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
+        <!--ImpressionTVC - 松江印象-->
         <scene sceneID="8Kq-aJ-JJ2">
             <objects>
                 <tableViewController id="f5G-xS-8wF" customClass="ImpressionTVC" sceneMemberID="viewController">
@@ -52,6 +52,7 @@
             </objects>
             <point key="canvasLocation" x="14" y="-1058"/>
         </scene>
+        <!--Navigation Controller - 松江印象-->
         <scene sceneID="ose-W4-vf5">
             <objects>
                 <navigationController definesPresentationContext="YES" id="41C-ds-owY" sceneMemberID="viewController">
@@ -67,6 +68,7 @@
             </objects>
             <point key="canvasLocation" x="-536" y="-1058"/>
         </scene>
+        <!--MapVC - 景点地图-->
         <scene sceneID="lBz-gG-oV3">
             <objects>
                 <viewController id="84Q-8f-1S2" customClass="MapVC" sceneMemberID="viewController">
@@ -94,6 +96,7 @@
             </objects>
             <point key="canvasLocation" x="14" y="-392"/>
         </scene>
+        <!--Navigation Controller - 地图-->
         <scene sceneID="guR-ZQ-LZt">
             <objects>
                 <navigationController definesPresentationContext="YES" id="hyh-XA-5I5" sceneMemberID="viewController">
@@ -109,6 +112,7 @@
             </objects>
             <point key="canvasLocation" x="-536" y="-384"/>
         </scene>
+        <!--TourTVC - 松江导览-->
         <scene sceneID="pTj-b8-4r0">
             <objects>
                 <tableViewController id="6wl-G1-mAe" customClass="TourTVC" sceneMemberID="viewController">
@@ -234,6 +238,7 @@
             </objects>
             <point key="canvasLocation" x="48" y="552"/>
         </scene>
+        <!--Tour Detail-->
         <scene sceneID="rDe-VY-RAg">
             <objects>
                 <viewController id="cem-lk-0Gq" customClass="TourDetail" sceneMemberID="viewController">
@@ -318,6 +323,7 @@
             </objects>
             <point key="canvasLocation" x="715" y="-112"/>
         </scene>
+        <!--View Spot Detail-->
         <scene sceneID="ZCZ-go-L0x">
             <objects>
                 <tableViewController id="u92-53-aDJ" customClass="ViewSpotDetail" sceneMemberID="viewController">
@@ -493,6 +499,7 @@
             </objects>
             <point key="canvasLocation" x="1707" y="-792"/>
         </scene>
+        <!--Map View Controller-->
         <scene sceneID="nn8-Ii-SAj">
             <objects>
                 <viewController id="hRe-tk-1cD" customClass="MapViewController" sceneMemberID="viewController">
@@ -516,6 +523,7 @@
             </objects>
             <point key="canvasLocation" x="2109" y="-799"/>
         </scene>
+        <!--Tour Weather - 松江天气-->
         <scene sceneID="bP0-WV-gAI">
             <objects>
                 <viewController id="j6r-5h-epk" customClass="TourWeather" sceneMemberID="viewController">
@@ -614,6 +622,7 @@
             </objects>
             <point key="canvasLocation" x="1387" y="869"/>
         </scene>
+        <!--City Detail - 城市概况-->
         <scene sceneID="28K-Rc-jQO">
             <objects>
                 <viewController id="2SK-fs-12j" customClass="CityDetail" sceneMemberID="viewController">
@@ -637,6 +646,7 @@
             </objects>
             <point key="canvasLocation" x="1207" y="1675"/>
         </scene>
+        <!--Activity - 交通-->
         <scene sceneID="cOY-lJ-DAm">
             <objects>
                 <tableViewController id="CKT-ET-1Zo" customClass="Activity" sceneMemberID="viewController">
@@ -685,6 +695,7 @@
             </objects>
             <point key="canvasLocation" x="1743" y="1559"/>
         </scene>
+        <!--Favourite List - 收藏夹-->
         <scene sceneID="y9H-4d-KOl">
             <objects>
                 <tableViewController id="rXR-xY-ae2" customClass="FavouriteList" sceneMemberID="viewController">
@@ -733,6 +744,7 @@
             </objects>
             <point key="canvasLocation" x="1351" y="83"/>
         </scene>
+        <!--CommentsTVC - 攻略-->
         <scene sceneID="dyi-8U-RIE">
             <objects>
                 <tableViewController id="cLJ-9A-uy3" customClass="CommentsTVC" sceneMemberID="viewController">
@@ -786,6 +798,7 @@
             </objects>
             <point key="canvasLocation" x="-16" y="1992"/>
         </scene>
+        <!--Comment Detail-->
         <scene sceneID="7sW-ff-Xpp">
             <objects>
                 <viewController id="vlq-G3-Ieb" customClass="CommentDetail" sceneMemberID="viewController">
@@ -809,6 +822,7 @@
             </objects>
             <point key="canvasLocation" x="387" y="1941"/>
         </scene>
+        <!--MoreTVC - 更多-->
         <scene sceneID="2d1-el-mM0">
             <objects>
                 <tableViewController id="Iql-Vx-d28" customClass="MoreTVC" sceneMemberID="viewController">
@@ -855,6 +869,7 @@
             </objects>
             <point key="canvasLocation" x="-92" y="2800"/>
         </scene>
+        <!--Setting - 设置-->
         <scene sceneID="9jx-Al-PUh">
             <objects>
                 <viewController id="iVe-Gx-3Ql" customClass="Setting" sceneMemberID="viewController">
@@ -876,6 +891,7 @@
             </objects>
             <point key="canvasLocation" x="531" y="2807"/>
         </scene>
+        <!--Activity - 最新资讯-->
         <scene sceneID="SfS-jF-bo7">
             <objects>
                 <tableViewController id="mKU-6A-N9Y" customClass="Activity" sceneMemberID="viewController">
@@ -924,6 +940,7 @@
             </objects>
             <point key="canvasLocation" x="1215" y="2385"/>
         </scene>
+        <!--Comment Detail-->
         <scene sceneID="zzA-MI-BY9">
             <objects>
                 <viewController id="SCh-rw-2AN" customClass="CommentDetail" sceneMemberID="viewController">
@@ -947,6 +964,7 @@
             </objects>
             <point key="canvasLocation" x="1657" y="2377"/>
         </scene>
+        <!--Feedback - 反馈意见-->
         <scene sceneID="Q2V-5r-52f">
             <objects>
                 <viewController id="MfW-cW-JVi" customClass="Feedback" sceneMemberID="viewController">
@@ -1023,6 +1041,7 @@
             </objects>
             <point key="canvasLocation" x="843" y="3375"/>
         </scene>
+        <!--Navigation Controller - 更多-->
         <scene sceneID="JcZ-Dj-AyJ">
             <objects>
                 <navigationController definesPresentationContext="YES" id="qdx-1R-b7B" sceneMemberID="viewController">
@@ -1038,6 +1057,7 @@
             </objects>
             <point key="canvasLocation" x="-536" y="2788"/>
         </scene>
+        <!--Navigation Controller - 攻略-->
         <scene sceneID="3gp-Sn-9cc">
             <objects>
                 <navigationController definesPresentationContext="YES" id="yrx-GI-Iwa" sceneMemberID="viewController">
@@ -1053,6 +1073,7 @@
             </objects>
             <point key="canvasLocation" x="-544" y="1992"/>
         </scene>
+        <!--Navigation Controller - 松江导览-->
         <scene sceneID="H7D-ed-zvq">
             <objects>
                 <navigationController definesPresentationContext="YES" id="EEz-cG-190" sceneMemberID="viewController">
@@ -1068,6 +1089,7 @@
             </objects>
             <point key="canvasLocation" x="-480" y="552"/>
         </scene>
+        <!--Tab Bar Controller-->
         <scene sceneID="15">
             <objects>
                 <tabBarController id="4" sceneMemberID="viewController">
@@ -1089,6 +1111,7 @@
             </objects>
             <point key="canvasLocation" x="-1400" y="560"/>
         </scene>
+        <!--Comment Detail-->
         <scene sceneID="VDr-aR-5vm">
             <objects>
                 <viewController id="XsD-kO-e5l" customClass="CommentDetail" sceneMemberID="viewController">
@@ -1125,178 +1148,6 @@
         <image name="weather3.jpeg" width="48" height="48"/>
         <image name="weather4.jpeg" width="48" height="48"/>
     </resources>
-    <classes>
-        <class className="Activity" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Activity.h"/>
-        </class>
-        <class className="AddFavouriteItem" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AddFavouriteItem.h"/>
-            <relationships>
-                <relationship kind="outlet" name="addFavourite" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="mapLocation" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="voiceNavigation" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="CityDetail" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CityDetail.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="CommentDetail" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CommentDetail.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="CommentItem" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CommentItem.h"/>
-            <relationships>
-                <relationship kind="outlet" name="content" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="littlePic" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="CommentsTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CommentsTVC.h"/>
-            <relationships>
-                <relationship kind="action" name="commentDetail:"/>
-            </relationships>
-        </class>
-        <class className="DetailContentItem" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailContentItem.h"/>
-            <relationships>
-                <relationship kind="outlet" name="addressLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="categoryLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="contactLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="priceLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="DetailPictureItem" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailPictureItem.h"/>
-            <relationships>
-                <relationship kind="outlet" name="pic" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="FavouriteList" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FavouriteList.h"/>
-        </class>
-        <class className="Feedback" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Feedback.h"/>
-            <relationships>
-                <relationship kind="action" name="sendMsg:"/>
-                <relationship kind="outlet" name="send" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="tapGestureRecgnizer" candidateClass="UITapGestureRecognizer"/>
-            </relationships>
-        </class>
-        <class className="FeedbackItem" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FeedbackItem.h"/>
-            <relationships>
-                <relationship kind="outlet" name="contact" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="textComment" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ImpressionItem" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ImpressionItem.h"/>
-            <relationships>
-                <relationship kind="outlet" name="image" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ImpressionTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ImpressionTVC.h"/>
-        </class>
-        <class className="MapVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapVC.h"/>
-            <relationships>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="MapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="MoreItem" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MoreItem.h"/>
-            <relationships>
-                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="MoreTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MoreTVC.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="PrettyNavigationBar" superclassName="UINavigationBar">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PrettyNavigationBar.h"/>
-        </class>
-        <class className="PrettyTabBar" superclassName="UITabBar">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PrettyTabBar.h"/>
-        </class>
-        <class className="Setting" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Setting.h"/>
-        </class>
-        <class className="TourDetail" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TourDetail.h"/>
-            <relationships>
-                <relationship kind="outlet" name="searchBar" candidateClass="UISearchBar"/>
-                <relationship kind="outlet" name="searchDiplay" candidateClass="UISearchDisplayController"/>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="TourDetailItem" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TourDetailItem.h"/>
-            <relationships>
-                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="littlePicImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="TourItem" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TourItem.h"/>
-            <relationships>
-                <relationship kind="outlet" name="firstImage" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="firstLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="fourthImage" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="fourthLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="secondImage" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="secondLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="thirdImage" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="thirdLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="TourTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TourTVC.h"/>
-            <relationships>
-                <relationship kind="action" name="tourDetail:"/>
-            </relationships>
-        </class>
-        <class className="TourWeather" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TourWeather.h"/>
-            <relationships>
-                <relationship kind="outlet" name="dateToday" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="dateTomorrow" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="tempratureToday" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="tempratureTomorrow" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherToday" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="weatherTomorrow" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="windToday" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="windTomorrow" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ViewSpotDetail" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewSpotDetail.h"/>
-            <relationships>
-                <relationship kind="action" name="addFavourite:"/>
-                <relationship kind="action" name="shareClick:"/>
-                <relationship kind="outlet" name="shareButton" candidateClass="UIBarButtonItem"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

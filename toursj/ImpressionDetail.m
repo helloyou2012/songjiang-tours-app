@@ -9,7 +9,8 @@
 #import "ImpressionDetail.h"
 #import "PrettyKit.h"
 
-@interface ImpressionDetail () 
+@interface ImpressionDetail ()
+
 @property (nonatomic,retain) NSDictionary *data;
 
 - (void)fillTheScrollView :(UIScrollView *)scrollView
